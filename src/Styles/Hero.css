@@ -1,0 +1,139 @@
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #0a0a0a;
+      --foreground: #ededed;
+    }
+  }
+  
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .hero {
+    height: 100vh;
+    background-image: url("https://cdn.wegic.ai/assets/onepage/ai/image/ede98a11-2429-4758-a23b-9754a4842d57.jpeg");
+    background-position: center;
+    background-size: cover; /* Ensure the image covers the area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5%; /* Adjust padding as needed */
+  }
+  
+  .maxcontainer {
+    max-width: 650px;
+    width: 60%;
+    margin: 0 auto;
+    position: absolute;
+    left: 10%;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9); /* Slight transparency for a softer look */
+    max-width: 600px; /* Fixed width */
+    border-radius: 1rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; /* Maintain padding */
+    /* padding-left: 50px; Adjust padding as needed */
+    box-sizing: border-box;
+    tab-size: 4;
+    border-width: 0;
+    border-style: solid;
+    gap: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+    
+  }
+  
+  h4 {
+    font-size: 20px;
+    color: rgb(255, 69, 0);
+    /* text-align: left; Align text to the left */
+  }
+  
+  h1 {
+    font-size: 50px;
+    color: #0a0a0a;
+    text-align: left; /* Align text to the left */
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  p {
+    font-size: 20px;
+    color: rgb(67, 80, 98);
+    text-align: left; /* Align text to the left */
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .buttons {
+    display: flex;
+    height: 60px;
+    gap: 15px;
+    /* justify-content: flex-start;  Align buttons to the left */
+  }
+  
+  button {
+    border-radius: 5px;
+    border: none; /* Removed border */
+    background-color: rgb(255, 69, 0);
+    color: white;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: rgba(255, 69, 0, 0.8); /* Slightly darken on hover */
+  }
+  .b1{
+    background-color:  rgb(255, 69, 0);
+    color: #ffffff;
+    cursor: pointer;
+    border: none; /* Removed border */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .b2 {
+    background-color: white;
+    color: #0a0a0a;
+    cursor: pointer;
+    border: none; /* Removed border */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .b2:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Slight darkening on hover */
+  }
+  

@@ -1,0 +1,335 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Apply gradient background to parent container */
+.gradient-bg {
+    background: linear-gradient(135deg, #4927e3 30%, #e34dd4 50%, #169c8a 100%);
+    height: 50vh;
+    width: 90vw;
+    margin: 10px auto; /* Center the container */
+    border-radius: 10px;
+    display: flex; /* Enable flex layout */
+}
+
+/* Left section */
+.container-1 {
+    color: white;
+    padding: 40px;
+    flex: 1; /* Flex property for equal width */
+    border-radius: 20px 0 0 20px; /* Curved corners on the left */
+    background: transparent; /* Make it transparent to see the gradient */
+}
+
+.container-1 h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container-1 p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Right section */
+.right-splash {
+    margin-left: 25px; /* Space between left section and image */
+    flex: 1; /* Flex property for equal width */
+    display: flex;
+    justify-content: center; /* Center image vertically */
+    align-items: center; /* Center image horizontally */
+    border-radius: 0 20px 20px 0; /* Curved corners on the right */
+    background: transparent; /* Transparent to allow gradient */
+    padding-right: 25px; /* Add space on the right side */
+}
+
+.right-splash img {
+    width: 400px;
+    height: 40vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for image */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Container Styles */
+.container-2 {
+    padding: 20px;
+    margin-top: 60px;
+}
+
+/* Section Titles */
+h2 {
+    font-size: 35px; /* Adjusted heading size */
+    font-weight: bold;
+}
+
+.horizontal-line {
+    border-top: 2px solid rgba(246, 66, 66, 0.909); /* Light horizontal line */
+    margin: 30px 0 10px; /* Increased margin above for more gap */
+    margin-right: 10px; /* Keep right margin if needed */
+}
+
+
+/* Highlighted Text */
+p.highlight {
+    color: orange;
+    font-size: 1.2rem; /* Adjusted size for the highlighted text */
+}
+
+/* Regular Paragraphs */
+p.event-description {
+    font-size: 1.5rem; /* Adjusted size for event descriptions */
+    margin: 0; /* Remove default margin */
+}
+
+/* Horizontal Line Style */
+.horizontal-line {
+    border-top: 2px solid black; /* Horizontal line style */
+    margin: 20px 0; /* Margin above and below */
+}
+
+/* Event Section */
+.event-section {
+    display: flex;
+    align-items: center; /* Center align the image and text */
+    margin-bottom: 10px; /* Space between event sections */
+}
+
+/* Logo Image Styles */
+.logo {
+    margin-right: 10px; /* Space between the logo and description */
+    width: 60px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+}
+
+/* Button Styles */
+.cont2-button {
+    border-radius: 10px;
+    background-color: #d66f0f;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Add padding for better button size */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+button:hover {
+    background-color: #e47a0a; /* Darker shade on hover */
+}
+
+
+
+
+
+.container-3 {
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px; /* Add padding around the container */
+}
+
+.box {
+    flex: 1; /* Allow boxes to grow equally */
+    margin: 10px; /* Space between boxes */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Clip overflow for zoom effect */
+    position: relative; /* Position relative for zoom effect */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.box-content {
+    position: relative; /* For absolute positioning of title */
+}
+
+.box-image {
+    width: 100%; /* Cover the entire box */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Maintain aspect ratio */
+    transition: transform 0.3s ease; /* Smooth zoom effect on image */
+}
+
+.box:hover .box-image {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.box-title {
+    position: absolute; /* Position title over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for centering */
+    color: white; /* Title color */
+    text-align: center; /* Center align titles */
+    font-size: 1.2rem; /* Reduced font size for titles */
+    font-family: 'Georgia', serif; /* More elegant font style */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better visibility */
+    padding: 5px; /* Padding around title */
+    border-radius: 5px; /* Rounded corners for title background */
+    text-shadow: none; /* Remove shadow */
+}
+
+
+
+
+
+
+
+
+
+.container-4 {
+    margin-top: 150px;
+    background-color: #f2e0df; /* Background color for the container */
+    width: 100%; /* Full width */
+    text-align: center; /* Center text */
+    padding: 40px 0; /* Remove side padding */
+     /* Remove margin */
+}
+
+.cta {
+    font-size: 30px; /* Increased font size for heading */
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below the heading */
+    color: black; /* Font color */
+}
+
+.stats-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: space-around; /* Even space around boxes */
+    margin: 20px 0; /* Margin above and below stats */
+}
+
+.stat-box {
+    background-color: transparent; /* No background color */
+    flex: 1; /* Equal width for all boxes */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 10px; /* Rounded corners */
+    color: black; /* Font color */
+    text-align: center; /* Center text in boxes */
+    margin: 0 10px; /* Margin between boxes */
+}
+
+.stat-number {
+    font-size: 4rem; /* Huge font size for stats */
+    font-weight: bold;
+    color: rgb(255, 78, 2); /* Orange color for numbers */
+    margin: 0; /* No margin */
+}
+
+.stats-line {
+    height: 0.5px; /* Height of the line */
+    background-color: rgb(209, 199, 199); /* Color for the line */
+    margin: 20px auto; /* Margin for spacing */
+    width: 80%; /* Width of the line */
+}
+
+.cta-button-container {
+    margin-top: 20px; /* Space above button */
+}
+
+.start-exploring-button {
+    border-radius: 10px;
+    background-color: #d66f0f;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Add padding for better button size */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+
+
+
+
+.container-5 {
+    background-color: white; /* White background */
+    padding: 40px; /* Padding for the container */
+}
+
+.contact-layout {
+    display: flex; /* Use flexbox for layout */
+    align-items: flex-start; /* Align items at the start */
+}
+
+.contact-info {
+    flex: 2; /* Allow more space for contact info */
+    text-align: left; /* Align text to the left */
+}
+
+.contact-heading {
+    font-size: 20px; /* Font size for main heading */
+    font-weight: bold; /* Bold heading */
+    margin-bottom: 10px; /* Space below heading */
+}
+
+.contact-details {
+    margin-top: 10px; /* Space above details */
+    font-size: 20px;
+}
+
+.detail-box {
+    padding: 10px; /* Padding inside boxes */
+    margin-bottom: 10px; /* Margin below boxes */
+    border: 1px solid #ccc; /* Optional: border for boxes */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-align: left; /* Align text in detail boxes */
+}
+
+.contact-image {
+    flex: 1; /* Allow image to take available space */
+    margin-left: 20px; /* Space between image and text */
+}
+
+.contact-image img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners for image */
+}
+
+.bottom-container {
+    background-color: black; /* Black background for the footer */
+    width: 100vw; /* Full width */
+    padding: 20px 0; /* Padding for top and bottom */
+}
+
+.footer-links {
+    display: flex; /* Use flexbox for horizontal alignment */
+    justify-content: center; /* Center links */
+}
+
+.bottom-container-boxes {
+    padding: 20px; /* Padding for each link box */
+    color: white; /* Text color */
+}
+
+.bottom-container-boxes a {
+    color: white; /* White text color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.bottom-container-boxes a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.social-media {
+    display: flex; /* Flexbox for social icons */
+    justify-content: flex-start; /* Align to left */
+    margin-top: 20px; /* Margin above social media icons */
+}
+
+.social-icon {
+    width: 30px; /* Width of social icons */
+    height: 30px; /* Height of social icons */
+    margin-right: 20px; /* Margin between icons */
+    filter: brightness(0) invert(1); /* Invert color for visibility */
+}
